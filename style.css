@@ -199,12 +199,27 @@ body {
     margin-left: 35px;
 }
 
+.insta-featured {
+    text-align: center;
+    margin-top: 100px;
+}
+
 .insta-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     align-items: center;
     text-align: center;
+    margin: 20px 0px 100px 0px;
+}
+
+.insta-flower {
+    width: 250px;
+    height: 300px;
+}
+
+.insta-back {
+    margin-right: 25px;
 }
 
 .deal-container {
