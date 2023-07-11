@@ -226,12 +226,26 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('./Flower Asset/Rectangle\ 9.png');
-
+background-repeat: no-repeat;
+margin-bottom: 100px;
+margin-left: 215px;
+margin-right: 230px;
+padding: 100px 100px;
 
 }
 
 .deal-info {
     text-align: center;
+}
+
+.mail {
+    border: 0px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 63px;
+    padding-left: 20px;
+    margin-right: 16px;
 }
 
 .footer {
