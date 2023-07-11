@@ -14,6 +14,7 @@ body {
     background: rgba(229, 84, 115, 0.10);
     align-items: center;
     /* padding: 50px 240px 0px 97px; */
+    padding-left: 60px;
 
 }
 
@@ -22,15 +23,16 @@ body {
 }
 
 .img1 {
-    width: 635px;
-    height: 800px;
-    padding-left: 200px;
+    width: 535px;
+    height: 600px;
+
+    padding: 50px 100px 0px 100px;
 }
 
 .h1 {
     color: #272727;
     font-family: Lato;
-    font-size: 60px;
+    font-size: 70px;
 
 
 
@@ -73,7 +75,9 @@ body {
     line-height: normal;
     padding: 0px 0px 24px 0px;
 }
-
+.tree{
+    margin-top: 25px;
+}
 .fea-p {
 
     flex-direction: column;
@@ -177,6 +181,9 @@ body {
     font-family: Lato;
     font-size: 45px;
 }
+#off{
+    color: #E55473;
+}
 
 .hot-deal-p1 {
     color: rgba(39, 39, 39, 0.60);
@@ -250,11 +257,12 @@ padding: 100px 100px;
 
 .footer {
     background: #111010;
+    padding: 100px 100px;
 }
 
 .footer-container {
     text-align: center;
-    height: 300px;
+    
 
 }
 
@@ -269,6 +277,11 @@ padding: 100px 100px;
 
 .footer-h3 {
     color: rgba(255, 255, 255, 0.90);
+/* text-align: center; */
+font-size: 15px;
+font-weight: 400;
+padding:0px 360px;
+
 }
 
 .footer-p {
@@ -279,4 +292,7 @@ padding: 100px 100px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+#span{
+    color: #FFFFFF;
 }
