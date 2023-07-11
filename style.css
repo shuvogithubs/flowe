@@ -13,7 +13,6 @@ body {
     justify-content: center;
     background: rgba(229, 84, 115, 0.10);
     align-items: center;
-    /* padding: 50px 240px 0px 97px; */
     padding-left: 60px;
 
 }
@@ -42,7 +41,7 @@ body {
 .p1 {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -75,9 +74,11 @@ body {
     line-height: normal;
     padding: 0px 0px 24px 0px;
 }
-.tree{
+
+.tree {
     margin-top: 25px;
 }
+
 .fea-p {
 
     flex-direction: column;
@@ -113,13 +114,17 @@ body {
 .flower-back1 {
     padding: 50px 40px 0px 40px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(5, 151, 160, 0.15);
+
+
 }
 
 .flower-back2 {
     padding: 50px 40px 0px 40px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(71, 125, 17, 0.15);
+
+
 
 }
 
@@ -147,12 +152,21 @@ body {
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    /* width: 1000px;
-    height: 320px; */
     margin: 100px 250px;
     padding: 85px 100px;
 }
+.feat-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 460px;
 
+
+    
+}
 .logo-detail {
     margin-right: 25px;
 }
@@ -179,17 +193,36 @@ body {
 .hot-deal-h1 {
     color: #272727;
     font-family: Lato;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 800;
 }
-#off{
+.hot-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+
+    
+}
+
+#off {
     color: #E55473;
 }
 
-.hot-deal-p1 {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-weight: 400;
+.hot-deal-p1 { 
     padding: 15px 100px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 
@@ -233,11 +266,11 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('./Flower Asset/Rectangle\ 9.png');
-background-repeat: no-repeat;
-margin-bottom: 100px;
-margin-left: 215px;
-margin-right: 230px;
-padding: 100px 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    margin-left: 215px;
+    margin-right: 230px;
+    padding: 100px 100px;
 
 }
 
@@ -262,7 +295,7 @@ padding: 100px 100px;
 
 .footer-container {
     text-align: center;
-    
+
 
 }
 
@@ -277,22 +310,43 @@ padding: 100px 100px;
 
 .footer-h3 {
     color: rgba(255, 255, 255, 0.90);
-/* text-align: center; */
-font-size: 15px;
-font-weight: 400;
-padding:0px 360px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 360px;
 
 }
 
 .footer-p {
+    color: #FFFFFFE5;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+padding:0px 360px;
+}
+.footer-pp{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family: Lato;
     font-size: 16px;
+    font-weight: 400;
+    
+    
+}
+.insta-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 30px;
+    padding: 0px 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+    
+
 }
-#span{
+
+#span {
     color: #FFFFFF;
 }
